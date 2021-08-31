@@ -1,0 +1,41 @@
+.container-fluid{
+    display: flex;
+}
+.section-list{
+    flex: 3;
+    transition: width 0.5s;
+}
+.section-form{
+    flex: 2;
+}
+
+#iImportant{
+    font-size: 35px;
+    color: blue;
+    cursor: pointer;
+}
+#iImportant:hover{
+    color:  rgb(247, 60, 200);
+}
+.task{
+    display: flex;
+    margin: 10px 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 6px;
+}
+.task i {
+    flex:1;
+    font-size:32px;
+
+}
+.task .info{
+    flex:4;
+}
+.task label {
+    flex: 2;
+
+}
+.task button{
+    flex:1;
+}
